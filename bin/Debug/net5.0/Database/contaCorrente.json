@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "Saldo": 213.6,
+    "Conta": "54126-9",
+    "Titular": "Thiago Moreira Santos"
+  },
+  {
+    "id": 2,
+    "Saldo": 500.0,
+    "Conta": "33625-8",
+    "Titular": "Leonardo da Silva"
+  },
+  {
+    "id": 3,
+    "Saldo": 0.0,
+    "Conta": "99856-5",
+    "Titular": "Gustavo Vilanne"
+  }
+]
