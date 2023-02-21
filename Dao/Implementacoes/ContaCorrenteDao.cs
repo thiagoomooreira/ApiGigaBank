@@ -20,16 +20,21 @@ namespace GigaBank.Dao.Implementacoes
         {
             return _db.ContaCorrentes.ToList();
         }
+        public ContaCorrente BuscarContaPeloNumero(string numeroDaConta)
+        {
+            return _db.ContaCorrentes.First(l => l.Conta == numeroDaConta);
+        }
 
         public void Adiciona(ContaCorrente contaCorrente)
         {
             _db.ContaCorrentes.Add(contaCorrente);
             this.SaveChanges();
         }
-
-        public ContaCorrente BuscarPorTitular(string titular)
+        
+        public void Atualizar(ContaCorrente contaCorrente)
         {
-            throw new System.NotImplementedException();
+            _db.Update(contaCorrente);
+            this.SaveChanges();
         }
 
         private void SaveChanges()

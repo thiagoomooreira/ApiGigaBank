@@ -5,6 +5,7 @@ using AutoMapper;
 using GigaBank.Dao;
 using GigaBank.Dtos;
 using GigaBank.Dtos.Response;
+using GigaBank.Dtos.Response.ContaCorrente;
 using GigaBank.Models;
 using GigaBank.Service;
 using Microsoft.AspNetCore.Mvc;
@@ -28,7 +29,7 @@ namespace GigaBank.Controllers
         }
 
         [HttpPost]
-        public ActionResult<ContaCorrenteDto> Adicionar(ContaCorrenteDto contaCorrenteDto)
+        public ActionResult<ContaCorrenteDto> AbrirNovaConta(ContaCorrenteDto contaCorrenteDto)
         {
             _contaCorrenteService.AdicionaNovaContaCorrente(contaCorrenteDto);
 

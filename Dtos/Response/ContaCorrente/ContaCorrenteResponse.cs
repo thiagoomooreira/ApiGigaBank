@@ -1,4 +1,4 @@
-﻿namespace GigaBank.Dtos.Response
+﻿namespace GigaBank.Dtos.Response.ContaCorrente
 {
     public class ContaCorrenteResponse
     {

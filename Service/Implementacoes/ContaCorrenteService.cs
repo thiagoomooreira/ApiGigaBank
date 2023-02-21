@@ -1,10 +1,13 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Security.AccessControl;
 using AutoMapper;
 using GigaBank.Dao;
 using GigaBank.Dtos;
 using GigaBank.Dtos.Response;
+using GigaBank.Dtos.Response.ContaCorrente;
+using GigaBank.Exceptions;
 using GigaBank.Models;
 
 namespace GigaBank.Service.Implementacoes
@@ -26,15 +29,27 @@ namespace GigaBank.Service.Implementacoes
                 l => this._mapper.Map<ContaCorrenteResponse>(l));
         }
 
+        public ContaCorrente BuscarContaPeloNumero(string numeroDaConta)
+        {
+            try
+            {
+                return this._contaCorrenteDao.BuscarContaPeloNumero(numeroDaConta);
+            }
+            catch (Exception e)
+            {
+                throw new ContaInexistenteException(numeroDaConta);
+            }
+        }
+
         public void AdicionaNovaContaCorrente(ContaCorrenteDto contaCorrenteDto)
         {
             this._contaCorrenteDao.Adiciona(
                 this._mapper.Map<ContaCorrente>(contaCorrenteDto));
         }
 
-        private bool VerificaSeExisteContaCorrente(string titular)
+        public void AtualizarContaCorrente(ContaCorrente contaCorrente)
         {
-            throw new System.NotImplementedException();
+            this._contaCorrenteDao.Atualizar(contaCorrente);
         }
     }
 }

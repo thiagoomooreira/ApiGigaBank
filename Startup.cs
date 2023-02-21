@@ -41,6 +41,7 @@ namespace GigaBank
             
             services.AddTransient<IContaCorrenteDao, ContaCorrenteDao>();
             services.AddTransient<IContaCorrenteService, ContaCorrenteService>();
+            services.AddTransient<ITransferenciaService, TransferenciaService>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

@@ -2,6 +2,7 @@
 using AutoMapper;
 using GigaBank.Dtos;
 using GigaBank.Dtos.Response;
+using GigaBank.Dtos.Response.ContaCorrente;
 using GigaBank.Models;
 
 namespace GigaBank.Mappings

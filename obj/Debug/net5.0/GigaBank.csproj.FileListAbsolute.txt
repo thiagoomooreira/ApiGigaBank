@@ -5,7 +5,6 @@ C:\Users\thiag\OneDrive\Documentos\Projetos\GigaBank\GigaBank\bin\Debug\net5.0\G
 C:\Users\thiag\OneDrive\Documentos\Projetos\GigaBank\GigaBank\bin\Debug\net5.0\GigaBank.runtimeconfig.json
 C:\Users\thiag\OneDrive\Documentos\Projetos\GigaBank\GigaBank\bin\Debug\net5.0\GigaBank.runtimeconfig.dev.json
 C:\Users\thiag\OneDrive\Documentos\Projetos\GigaBank\GigaBank\bin\Debug\net5.0\GigaBank.dll
-C:\Users\thiag\OneDrive\Documentos\Projetos\GigaBank\GigaBank\bin\Debug\net5.0\ref\GigaBank.dll
 C:\Users\thiag\OneDrive\Documentos\Projetos\GigaBank\GigaBank\bin\Debug\net5.0\GigaBank.pdb
 C:\Users\thiag\OneDrive\Documentos\Projetos\GigaBank\GigaBank\bin\Debug\net5.0\Microsoft.OpenApi.dll
 C:\Users\thiag\OneDrive\Documentos\Projetos\GigaBank\GigaBank\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
@@ -19,7 +18,6 @@ C:\Users\thiag\OneDrive\Documentos\Projetos\GigaBank\GigaBank\obj\Debug\net5.0\G
 C:\Users\thiag\OneDrive\Documentos\Projetos\GigaBank\GigaBank\obj\Debug\net5.0\GigaBank.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\thiag\OneDrive\Documentos\Projetos\GigaBank\GigaBank\obj\Debug\net5.0\GigaBank.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\thiag\OneDrive\Documentos\Projetos\GigaBank\GigaBank\obj\Debug\net5.0\staticwebassets\GigaBank.StaticWebAssets.Manifest.cache
-C:\Users\thiag\OneDrive\Documentos\Projetos\GigaBank\GigaBank\obj\Debug\net5.0\staticwebassets\GigaBank.StaticWebAssets.xml
 C:\Users\thiag\OneDrive\Documentos\Projetos\GigaBank\GigaBank\obj\Debug\net5.0\scopedcss\bundle\GigaBank.styles.css
 C:\Users\thiag\OneDrive\Documentos\Projetos\GigaBank\GigaBank\obj\Debug\net5.0\GigaBank.RazorTargetAssemblyInfo.cache
 C:\Users\thiag\OneDrive\Documentos\Projetos\GigaBank\GigaBank\obj\Debug\net5.0\GigaBank.csproj.CopyComplete
@@ -27,7 +25,6 @@ C:\Users\thiag\OneDrive\Documentos\Projetos\GigaBank\GigaBank\obj\Debug\net5.0\G
 C:\Users\thiag\OneDrive\Documentos\Projetos\GigaBank\GigaBank\obj\Debug\net5.0\ref\GigaBank.dll
 C:\Users\thiag\OneDrive\Documentos\Projetos\GigaBank\GigaBank\obj\Debug\net5.0\GigaBank.pdb
 C:\Users\thiag\OneDrive\Documentos\Projetos\GigaBank\GigaBank\obj\Debug\net5.0\GigaBank.genruntimeconfig.cache
-C:\Users\thiag\OneDrive\Documentos\Projetos\GigaBank\GigaBank\bin\Debug\net5.0\Database\contaCorrente.json
 C:\Users\thiag\OneDrive\Documentos\Projetos\GigaBank\GigaBank\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\thiag\OneDrive\Documentos\Projetos\GigaBank\GigaBank\bin\Debug\net5.0\AutoMapper.dll
 C:\Users\thiag\OneDrive\Documentos\Projetos\GigaBank\GigaBank\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
@@ -66,3 +63,4 @@ C:\Users\thiag\OneDrive\Documentos\Projetos\GigaBank\GigaBank\bin\Debug\net5.0\r
 C:\Users\thiag\OneDrive\Documentos\Projetos\GigaBank\GigaBank\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\thiag\OneDrive\Documentos\Projetos\GigaBank\GigaBank\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\thiag\OneDrive\Documentos\Projetos\GigaBank\GigaBank\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\thiag\OneDrive\Documentos\Projetos\GigaBank\GigaBank\obj\Debug\net5.0\refint\GigaBank.dll

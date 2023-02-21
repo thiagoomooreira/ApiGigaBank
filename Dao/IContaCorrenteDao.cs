@@ -6,7 +6,8 @@ namespace GigaBank.Dao
     public interface IContaCorrenteDao
     {
         List<ContaCorrente> BuscarTodos();
+        ContaCorrente BuscarContaPeloNumero(string numeroDaConta);
         void Adiciona(ContaCorrente contaCorrente);
-        ContaCorrente BuscarPorTitular(string titular);
+        void Atualizar(ContaCorrente contaCorrente);
     }
 }
