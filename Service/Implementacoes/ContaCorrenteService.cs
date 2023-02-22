@@ -51,5 +51,12 @@ namespace GigaBank.Service.Implementacoes
         {
             this._contaCorrenteDao.Atualizar(contaCorrente);
         }
+
+        public void DepositarValor(ContaCorrente contaCorrente, decimal valor)
+        {
+            contaCorrente.Depositar(valor);
+            
+            this._contaCorrenteDao.Atualizar(contaCorrente);
+        }
     }
 }

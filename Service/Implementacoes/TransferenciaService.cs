@@ -14,29 +14,11 @@ namespace GigaBank.Service.Implementacoes
         
         public void Transferir(ContaCorrente contaOrigem, ContaCorrente contaDestino, decimal valor)
         {
-            if (!ContaCorrentePossuiValor(contaOrigem, valor))
-            {
-                throw new SaldoInsuficienteException(
-                    "A conta de origem não possui saldo para realizar esta transferência");
-            }
-
-            AlterarSaldoContaCorrente(contaOrigem, -valor);
-            AlterarSaldoContaCorrente(contaDestino, valor);
-        }
-
-        private bool ContaCorrentePossuiValor(ContaCorrente contaCorrente, decimal valor)
-        {
-            if (contaCorrente.Saldo < valor)
-                return false;
-
-            return true;
-        }
-
-        private void AlterarSaldoContaCorrente(ContaCorrente contaCorrente, decimal valor)
-        {
-            contaCorrente.Saldo += valor;
+            contaOrigem.Sacar(valor);
+            _contaCorrenteService.AtualizarContaCorrente(contaOrigem);
             
-            _contaCorrenteService.AtualizarContaCorrente(contaCorrente);
+            contaDestino.Depositar(valor);
+            _contaCorrenteService.AtualizarContaCorrente(contaDestino);
         }
     }
 }

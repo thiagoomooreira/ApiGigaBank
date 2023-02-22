@@ -20,7 +20,7 @@ namespace GigaBank.Controllers
             this._contaCorrenteService = contaCorrenteService;
         }
         
-        [HttpPost]
+        [HttpPost][Route("/RealizarTransferencia")]
         public JsonResult Tranferir(TransferenciaDto transferencia)
         {
             try

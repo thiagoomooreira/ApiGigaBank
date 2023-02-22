@@ -12,5 +12,6 @@ namespace GigaBank.Service
         ContaCorrente BuscarContaPeloNumero(string numeroDaConta);
         void AdicionaNovaContaCorrente(ContaCorrenteDto contaCorrente);
         void AtualizarContaCorrente(ContaCorrente contaCorrente);
+        void DepositarValor(ContaCorrente contaCorrente, decimal valor);
     }
 }
